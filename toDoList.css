@@ -1,0 +1,160 @@
+#texture {
+	background-image: url(dark.jpg); 
+	position: fixed; 
+	opacity: 0.9; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	height: 100%; 
+	z-index: -1;
+}
+
+h1{
+	color:white;
+	text-align: center;
+}
+
+h3{
+	color:white;
+}
+
+h2{
+	color:black;
+	background:#ffd633;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  overflow: hidden;
+  background-color: #262626;
+}
+
+li.menu {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ffd633;
+    color: black;
+}
+
+.header-link a {
+	color:#ffd633;
+	text-decoration: none;
+	float:right;
+	clear:right;
+	position:absolute;
+  top:7px;
+  right: 22px;
+}
+
+.table {
+	height:60%;
+	width:50%;
+	margin: 3% 3% 3% 12%;
+	float: left;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+    float:left;
+    margin: 0px 0px 30px 10px;
+}
+
+th,td {
+    text-align:left;
+    padding:5px;
+    color: white;
+}
+
+tr.first, th.first {
+	background:#ffd633;
+	color:black;
+}
+
+.add{
+	height:60%;
+	width:25%;
+	margin: 3% 5% 3% 0%;
+	float: right;
+	border-style: dotted;
+	text-align:center;
+	color:white;
+}
+
+input[type=text]{
+    padding: 8px 8px;
+    margin: 8px 0;	
+    background-color: transparent;
+    color: white;
+}
+
+textarea {
+  background: transparent;
+}
+
+input[type=date]{
+    padding: 8px 8px;
+    margin: 8px 0;
+    background-color: transparent;
+    color: white;
+}
+
+input[type=password]{
+    padding: 8px 8px;
+    margin: 8px 0;
+    background-color: transparent;
+    color: white;
+}
+
+input[type=email]{
+    padding: 8px 8px;
+    margin: 8px 0;
+    background-color: transparent;
+    color: white;
+}
+
+select {
+    padding: 16px 20px;
+    border: outset;
+    border-radius: 4px;
+    background-color: transparent;
+    color:white;
+}
+
+.sign-in{
+	height:27%;
+	width:40%;
+	margin: 0 auto;
+	text-align:center;
+	color:white;
+	border-style: dashed;
+}
+
+.register{
+	height:50%;
+	width:40%;
+	margin: 0 auto;
+	text-align:center;
+	color:white;
+	border-style: dashed;
+}
+
+
+
+

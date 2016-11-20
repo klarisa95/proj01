@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>history</title>
+   	 	<meta charset=utf-8>
+   	 	<link rel="stylesheet" type="text/css" href="toDoList.css">
+	</head>
+	<body id="texture">
+		<div class="header-link"><a href="#popup">Log out</a></div>
+		<h1>TO DO LIST</h1>
+		<hr><hr>
+		<div>
+			<ul class="menu">
+  			<li class="menu"><a href="today.html">Today</a></li>
+  			<li class="menu"><a href="week.html">This week</a></li>
+  			<li class="menu"><a href="categories.html">Categories</a></li>
+  			<li class="menu"><a class="active" href="history.html">History</a></li>
+  			<li style="float:right"><a href="settings.html">Settings</a></li>
+			</ul>
+		</div>
+		
+		<div class="add">
+		<h3> LET'S DO THIS </h3>
+		<label>Task: <input type="text" required/></label></br>
+		<label>Due date: <input type="date" required/></label>
+		<label>Priority: <select> 
+				<option>Low</option>
+				<option>Normal</option>
+				<option>High</option>
+			</select> 
+		</label></br>
+		<label>Category: <input type="text"/></label>
+		<label>About: <textarea name="about"></textarea></label></br></br>
+		<input id="button" type="submit" value="Add" />
+		
+		</div>
+	</body>
+</html>
