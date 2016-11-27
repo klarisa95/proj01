@@ -4,24 +4,31 @@
 		<title>menu</title>
    	 	<meta charset=utf-8>
    	 	<link rel="stylesheet" type="text/css" href="toDoList.css">
-	</head>
+   	 	<script type="text/javascript" src="password.js"></script>
+  </head>
 	<body id="texture">
 		<h1>TO DO LIST</h1>
 		<hr><hr>
 		<div class="sign-in">
 			<h2>SIGN IN</h2>
-			<label>username: <input type="text" required/></label></br>
-			<label>password: <input type="password" required/></label>
-			<input id="button" type="submit" value="Sign in"/>
-		</div> </br>
+			<label class="in">username: <input type="text" required/></label>
+			<label class="in">password: <input type="password" required/></label>
+			<a href="today.html"><input id="button" type="submit" href="today.html" value="Sign in"/></a>
+		</div>
 		<div class="register">
 			<h2>REGISTER</h2>
-			<label>name: <input type="text" required/></label></br>
-			<label>surname: <input type="text" required/></label></br>
-			<label>username: <input type="text" required/></label></br>
-			<label>e-mail: <input type="email" required/></label></br>
-			<label>password: <input type="password" required/></label> 
-			<input id="button" type="submit" value="Sign in"/>
+			<label>name:</label> <input type="text" required/>
+			<label>surname:</label> <input type="text" required/>
+			<label>username:</label> <input type="text" required/>
+			<label>e-mail:</label> <input type="email" required/>
+			<label>password:</label> <input type="password" id="newPassword" required/>
+			<label>rewrite your password:</label> <input type="password" id="confirmPassword" required/></br>
+			<label id='checkPassword'></label>
+			<div class="registrationFormAlert" id="checkPassword "></div>
+			<input id="button" type="submit" value="register" onclick="registerHandler()"/>
 		</div>
 	</body>
 </html>
+
+
+
