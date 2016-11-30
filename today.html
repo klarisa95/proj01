@@ -3,10 +3,11 @@
 	<head>
 		<title>today</title>
    	 	<meta charset=utf-8>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
    	 	<link rel="stylesheet" type="text/css" href="toDoList.css">
 	</head>
 	<body id="texture">
-		<div class="header-link"><a href="#popup">Log out</a></div>
+		<div class="header-link"><a href="menu.html">Log out</a></div>
 		<h1>TO DO LIST</h1>
 		<hr><hr>
 		<div>
@@ -32,46 +33,25 @@
 				<tr>
 					<th>27.11.2016</th>
 					<th>Homework WP</th>
-					<th><font color=#00b300>normal</th>
+					<th id="g">normal</th>
 					<th>school</th>
 					<th>add pages</th>
 					<th>edit</th>
 					<th><input type="checkbox"></th>					
-					</tr>
-				<tr>
-					<th>8.12.2016</th>
-					<th>Quiz MS</th>
-					<th><font color=#ffff1a>low</th>
-					<th>school</th>
-					<th>solve it</th>
-					<th>edit</th>
-					<th><input type="checkbox"></th>	
-				</tr>
-				<tr>
-					<th>20.11.2016</th>
-					<th>Birthday</th>
-					<th><font color=#cc0000>high</th>
-					<th>friends</th>
-					<th>sent a card to Nelly</th>
-					<th>edit</th>
-					<th><input type="checkbox"></th>	
 				</tr>
 			</table>
 		</div>
 		<div class="add">
-		<h3> LET'S DO THIS </h3>
-		<label>Task: <input type="text" required/></label></br>
-		<label>Due date: <input type="date" required/></label>
-		<label>Priority: <select> 
-				<option>Low</option>
-				<option>Normal</option>
-				<option>High</option>
-			</select> 
-		</label></br>
-		<label>Category: <input type="text"/></label>
-		<label>About: <textarea name="about"></textarea></label></br></br>
-		<input id="button" type="submit" value="Add" />
-		
+			<h3> LET'S DO THIS </h3>
+			<label>Task:</label><input type="text" required/>
+			<label>Due date:</label><input type="date" required/>
+			<form>Priority: 
+			<input type="radio" name="gender" value="low" checked>low
+			<input type="radio" name="gender" value="norm">normal
+			<input type="radio" name="gender" value="high">high </form>	
+			<label>Category:</label> <input type="text"/>
+			<span><label>About: </label><textarea name="about"></textarea></span>	
+			<input id="button" type="submit" value="Add"/>
 		</div>
 	</body>
 </html>
