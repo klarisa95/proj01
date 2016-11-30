@@ -25,35 +25,35 @@
 					<th class="first">Task</th>
 					<th class="first">Category</th>
 					<th class="first">Notes</th>
-					<th class="first">Delete</th>
+					<th class="first">Done?</th>
 				</tr>
 				<tr>
 					<th>12.10.2016</th>
 					<th>Cleaning apartment</th>
 					<th>other</th>
 					<th>kitchen, bathroom</th>
-					<th><input type="checkbox"></th>					
+					<th id="g">Y</th>					
 				</tr>
 				<tr>
 					<th>7.10.2016</th>
 					<th>Buy a plant</th>
 					<th>friend</th>
-					<th>or red flower</th>
-					<th><input type="checkbox"></th>					
+					<th>or r ed flower</th>
+					<th id="r">N</th>					
 				</tr>
 				<tr>
 					<th>24.8.2016</th>
 					<th>Unplug sink</th>
 					<th>home</th>
 					<th>/</th>
-					<th><input type="checkbox"></th>					
+					<th id="g">Y</th>					
 				</tr>
 				<tr>
 					<th>8.8.2016</th>
 					<th>Buy a shampoo</th>
 					<th>home</th>
 					<th>in DM</th>
-					<th><input type="checkbox"></th>					
+					<th id="g">Y</th>					
 				</tr>
 			</table>
 		</div>
@@ -61,13 +61,13 @@
 			<h3> LET'S DO THIS </h3>
 			<label>Task:</label><input type="text" required/>
 			<label>Due date:</label><input type="date" required/>
-			<label>Priority: 
+			<form>Priority: 
 			<input type="radio" name="gender" value="low" checked>low
 			<input type="radio" name="gender" value="norm">normal
-			<input type="radio" name="gender" value="high">high </label></br>	
+			<input type="radio" name="gender" value="high">high </form>
 			<label>Category:</label> <input type="text"/>
-			<label>About: </label><textarea name="about"></textarea></br></br>	
-			<input id="button" type="submit" value="Add"/>
+			<span><label>About: </label><textarea name="about"></textarea></span>	
+			<input class="button" type="submit" value="Add"/>
 		</div>
 	</body>
 </html>
