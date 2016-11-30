@@ -121,9 +121,9 @@ select {
 }
 
 .sign-in{
-	height:27%;
+	height:30%;
 	width:41%;
-	margin: 0 auto;
+	margin: 1% auto;
 	text-align:center;
 	color:white;
 	border-style: dashed;
@@ -149,15 +149,44 @@ label.in{
 
 html, body { 
 	overflow:auto;
+	
 }
    
 .settings{
-	height:86%;
+	height:98%;
 	width:41%;	
 	margin: 0 auto;
 	text-align:center;
 	color:white;
 	border-style: dashed;
+}
+
+#g {
+	color: #00b300;
+}
+
+#r {
+	color: #cc0000;
+}
+
+#y {
+	color: #ffff1a;	
+}
+
+span{
+	display: block;
+}
+
+form{
+	padding: 3%
+}
+
+.button{
+	margin: 3%
+}
+
+.button set{
+	margin: 0%
 }
 
 
