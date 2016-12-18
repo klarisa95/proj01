@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>menu</title>
+   	 	<meta charset=utf-8>
+   	 	<link rel="stylesheet" type="text/css" href="toDoList.css">
+   	 	<script type="text/javascript" src="password.js"></script>
+  </head>
+	<body id="texture">
+		<h1>TO DO LIST</h1>
+		<hr><hr>
+		<div class="sign-in">
+			<h2>SIGN IN</h2>
+			<label class="in">username: <input type="text" required/></label>
+			<label class="in">password: <input type="password" required/></label>
+			<input class="button" type="submit" value="Sign in" onclick="location.href='today.html'"/>
+		</div>
+		<div class="register">
+			<h2>REGISTER</h2>
+			<label>name:</label> <input type="text" required/>
+			<label>surname:</label> <input type="text" required/>
+			<label>username:</label> <input type="text" required/>
+			<label>e-mail:</label> <input type="email" name="email" required/>
+			<label>password:</label> <input type="password" id="newPassword" required/>
+			<span><label>rewrite your password:</label> <input type="password" id="confirmPassword" required/></span>
+			<label id='checkPassword'></label>
+			<input class="button" type="submit" value="register" onclick="registerHandler()"/>
+		</div>
+	</body>
+</html>
+
+
+

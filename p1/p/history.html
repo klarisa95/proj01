@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>history</title>
+   	 	<meta charset=utf-8>
+   	 	<link rel="stylesheet" type="text/css" href="toDoList.css">
+	</head>
+	<body id="texture">
+		<div class="header-link"><a href="menu.html">Log out</a></div>
+		<h1>TO DO LIST</h1>
+		<hr><hr>
+		<div>
+			<ul class="menu">
+  			<li class="menu"><a href="today.html">Today</a></li>
+  			<li class="menu"><a href="week.html">This week</a></li>
+  			<li class="menu"><a href="categories.html">Categories</a></li>
+  			<li class="menu"><a class="active" href="history.html">History</a></li>
+  			<li style="float:right"><a href="settings.html">Settings</a></li>
+			</ul>
+		</div>
+		<div class="table">
+			<table>
+				<tr class="first" >
+					<th class="first">Date of execution</th>
+					<th class="first">Task</th>
+					<th class="first">Category</th>
+					<th class="first">Notes</th>
+					<th class="first">Done?</th>
+				</tr>
+				<tr>
+					<th>12.10.2016</th>
+					<th>Cleaning apartment</th>
+					<th>other</th>
+					<th>kitchen, bathroom</th>
+					<th id="g">Y</th>					
+				</tr>
+				<tr>
+					<th>7.10.2016</th>
+					<th>Buy a plant</th>
+					<th>friend</th>
+					<th>or r ed flower</th>
+					<th id="r">N</th>					
+				</tr>
+				<tr>
+					<th>24.8.2016</th>
+					<th>Unplug sink</th>
+					<th>home</th>
+					<th>/</th>
+					<th id="g">Y</th>					
+				</tr>
+				<tr>
+					<th>8.8.2016</th>
+					<th>Buy a shampoo</th>
+					<th>home</th>
+					<th>in DM</th>
+					<th id="g">Y</th>					
+				</tr>
+			</table>
+		</div>
+		<div class="add">
+			<h3> LET'S DO THIS </h3>
+			<label>Task:</label><input type="text" required/>
+			<label>Due date:</label><input type="date" required/>
+			<form>Priority: 
+			<input type="radio" name="gender" value="low" checked>low
+			<input type="radio" name="gender" value="norm">normal
+			<input type="radio" name="gender" value="high">high </form>
+			<label>Category:</label> <input type="text"/>
+			<span><label>About: </label><textarea name="about"></textarea></span>	
+			<input class="button" type="submit" value="Add"/>
+		</div>
+	</body>
+</html>
